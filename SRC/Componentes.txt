@@ -1,0 +1,13 @@
+Los componentes de Java son:
+- JRE ("Java Runtime Environment")
+Como su nombre lo indica este ambiente ("KIT") es utilizado solo para ejecutar ("Runtime") programas en Java. Esta situación se da cuando empresas de Software diseñan alguna interfase gráfica o aplicación en Java para su producto. Cabe mencionar que muchos productos que utilizan Java para su interfase gráfica o instalación ya incluyen un JRE para evitarle la molestia de instalarlo, uno de estos es Oracle ; sin embargo, muchos productos requieren que usted posea este ambiente.
+
+-JDK,SDK,J2SE
+¨Java Development Kit"(JDK),"Standard Development Kit" (SDK) y "Java 2 Standard Edition" (J2SE) son nombres para el mismo componente e incluyen: El API de Java, el JRE ( JVM ), compilador de Java y otras funcionalidades definidas por Sun. Si no esta familiarizado programando en Java, el API de Java es un conjunto de clases que es utilizado para generar programas básicos en el lenguaje; utilizando una analogía, estas clases tienen la misma funcionalidad que las funciones|clases estándar utilizadas en otros lenguajes C,C++, Perl; Partiendo de estas clases (API de Java) se generan TODOS los programas,interfaces y elementos programados en Java, inclusive a partir de estas clases usted puede definir otras clases especificas que serán utilizadas por su programa o producto. 
+
+- IDE's
+Mientras un JDK|SDK ofrece las herramientas para compilar y ejecutar programas en Java éste no ofrece un ambiente de trabajo para proyectos complejos, esto es, si usted compila una o dos clases quizás el comando javac ofrecido en los JDK es suficiente, pero si su proyecto estará compuesto por 100 o 200 clases, javac sería muy deficiente.Los IDE's ("Integrated Development Environment") ofrecen un ambiente gráfico en los que se tiene acceso a mayor número de herramientas no ofrecidas en los JDK's: Debuggers más elaborados, check-points dentro de la compilación,creación de WAR's (Web-Archives), "Wizards" para acelerar desarrollo, entre otras cosas.
+
+- J2EE (Java 2 Enterprise Edition)
+J2EE es un grupo de especificaciones diseñadas por Sun que permiten la creación de aplicaciones empresariales, esto sería: acceso a base de datos (JDBC), utilización de directorios distribuidos (JNDI), acceso a métodos remotos (RMI/CORBA), funciones de correo electrónico (JavaMail), aplicaciones Web(JSP y Servlets)...etc.
+
